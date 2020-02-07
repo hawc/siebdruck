@@ -4,17 +4,24 @@
   </div>
 </template>
 
-<style>
+<style lang="scss">
 html {
   font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
     Roboto, 'Helvetica Neue', Arial, sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    &:hover {
+        border-bottom: 1px solid blue;
+    }
 }
 
 *,
@@ -30,6 +37,12 @@ ul {
   margin: 0;
 }
 
+.wrap {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* 
 .button--green {
   display: inline-block;
   border-radius: 4px;
@@ -58,4 +71,5 @@ ul {
   color: #fff;
   background-color: #35495e;
 }
+*/
 </style>

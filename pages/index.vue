@@ -1,86 +1,53 @@
 <template>
   <div class="site">
-    <header>
+    <header class="siteHeader">
       <div class="wrap">
-        <h1>Sieb & Druck</h1>
-        <h2>Gelerntes aus der Arbeit mit Farbe</h2>
-        <nav class="headerNav">
-          <ul class="headerNav__list">
-            <li class="headerNav__item">
-              <a href="/topics">Techniken</a>
-              <ul>
-                <li>
-                  <a href="/">Beschichten</a>
-                </li>
-                <li>
-                  <a href="/">Belichten & Auswaschen</a>
-                </li>
-                <li>
-                  <a href="/">Drucken</a>
-                </li>
-                <li>
-                  <a href="/">Entschichten</a>
-                </li>
-              </ul>
-            </li>
-            <li class="headerNav__item">
-              <a href="/topics">Materialien</a>
-              <ul>
-                <li>
-                  <a href="/">Siebe</a>
-                </li>
-                <li>
-                  <a href="/">Papier</a>
-                </li>
-                <li>
-                  <a href="/">Rakel</a>
-                </li>
-                <li>
-                  <a href="/">Geräte</a>
-                </li>
-                <li>
-                  <a href="/">Textilien</a>
-                </li>
-              </ul>
-            </li>
-            <li class="headerNav__item">
-              <a href="/about">Über</a>
-            </li>
-          </ul>
-        </nav>
+        <h1 class="site__headline">Sieb & Druck</h1>
+        <h2 class="site__subline">Gelerntes aus der Arbeit mit Farbe</h2>
       </div>
     </header>
+    <navigation></navigation>
     <main>
       <div class="wrap">
         <div class="content"></div>
       </div>
     </main>
-    <footer>
-      <div class="wrap">
-        <ul class="footerNav__list">
-          <li class="footerNav__item">
-            (c)
-          </li>
-          <li class="footerNav__item">
-            <a href="https://github.com/nuxt/nuxt.js"
-                target="_blank"
-                rel="noopener">GitHub</a>
-          </li>
-          <li class="footerNav__item">
-            <a href="/impressum">Impressum</a>
-          </li>
-        </ul>
-      </div>
-    </footer>
+    <footerNav class="siteFooter"></footerNav>
   </div>
 </template>
 
 <script>
-export default {
-  components: {
-  }
-}
+    import navigation from '~/components/navigation';
+    import footerNav from '~/components/footer';
+
+    export default {
+        components: {
+            navigation,
+            footerNav,
+        }
+    }
 </script>
 
-<style>
+<style lang="scss">
+    .siteHeader {
+        margin: 50px 0;
+        text-align: center;
+    }
+    .site__headline {
+        font-family: 'Abril Fatface', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        font-weight: normal;
+        font-size: 3rem;
+    }
+    .site__subline {
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.2rem;
+        font-size: .9rem;
+    }
+    .siteFooter {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+    }
 </style>
