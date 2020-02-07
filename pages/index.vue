@@ -1,72 +1,86 @@
 <template>
-  <div class="container">
-    <div>
-      <logo />
-      <h1 class="title">
-        siebdruck
-      </h1>
-      <h2 class="subtitle">
-        Gelerntes aus der Arbeit mit Farbe
-      </h2>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey"
-        >
-          GitHub
-        </a>
+  <div class="site">
+    <header>
+      <div class="wrap">
+        <h1>Sieb & Druck</h1>
+        <h2>Gelerntes aus der Arbeit mit Farbe</h2>
+        <nav class="headerNav">
+          <ul class="headerNav__list">
+            <li class="headerNav__item">
+              <a href="/topics">Techniken</a>
+              <ul>
+                <li>
+                  <a href="/">Beschichten</a>
+                </li>
+                <li>
+                  <a href="/">Belichten & Auswaschen</a>
+                </li>
+                <li>
+                  <a href="/">Drucken</a>
+                </li>
+                <li>
+                  <a href="/">Entschichten</a>
+                </li>
+              </ul>
+            </li>
+            <li class="headerNav__item">
+              <a href="/topics">Materialien</a>
+              <ul>
+                <li>
+                  <a href="/">Siebe</a>
+                </li>
+                <li>
+                  <a href="/">Papier</a>
+                </li>
+                <li>
+                  <a href="/">Rakel</a>
+                </li>
+                <li>
+                  <a href="/">Geräte</a>
+                </li>
+                <li>
+                  <a href="/">Textilien</a>
+                </li>
+              </ul>
+            </li>
+            <li class="headerNav__item">
+              <a href="/about">Über</a>
+            </li>
+          </ul>
+        </nav>
       </div>
-    </div>
+    </header>
+    <main>
+      <div class="wrap">
+        <div class="content"></div>
+      </div>
+    </main>
+    <footer>
+      <div class="wrap">
+        <ul class="footerNav__list">
+          <li class="footerNav__item">
+            (c)
+          </li>
+          <li class="footerNav__item">
+            <a href="https://github.com/nuxt/nuxt.js"
+                target="_blank"
+                rel="noopener">GitHub</a>
+          </li>
+          <li class="footerNav__item">
+            <a href="/impressum">Impressum</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
   </div>
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
-
 export default {
   components: {
-    Logo
   }
 }
 </script>
 
 <style>
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
-}
 </style>
