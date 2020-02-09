@@ -52,5 +52,15 @@ export default {
     */
     extend (config, ctx) {
     }
+  },
+  router: {
+    extendRoutes(routes, resolve) {
+      routes.push({
+        path: '/siebe',
+        components: {
+          default: resolve(__dirname, 'pages/screens'),
+        }
+      })
+    }
   }
 }
