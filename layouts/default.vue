@@ -15,12 +15,33 @@ html {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
+  padding: 0;
+}
+body {
+  padding: 0;
 }
 
-a {
+.site {
+  position: relative;
+  min-height: 100vh;
+}
+
+h1 {
+  text-decoration: underline;
+}
+
+main {
+  padding-bottom: 60px;
+}
+
+a,
+a:active,
+a:hover,
+a:visited {
+    color: black;
     text-decoration: none;
     &:hover {
-        border-bottom: 1px solid blue;
+        text-decoration: underline;
     }
 }
 
@@ -37,12 +58,21 @@ ul {
   margin: 0;
 }
 
+dl {
+  margin: 20px 0;
+  dt {
+    margin-top: 20px;
+    font-weight: bold;
+  }
+}
+
 .wrap {
     max-width: 1200px;
     margin: 0 auto;
+    padding: 0 20px;
 }
 
-/* 
+/*
 .button--green {
   display: inline-block;
   border-radius: 4px;

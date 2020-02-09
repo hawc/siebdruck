@@ -1,13 +1,15 @@
 <template>
-    <footer>
+    <footer class="footerNav">
         <ul class="footerNav__list">
             <li class="footerNav__item">
-                (c)
+                <a href="/ueber">Über</a>
             </li>
             <li class="footerNav__item">
-                <a href="https://github.com/nuxt/nuxt.js"
-                    target="_blank"
-                    rel="noopener">GitHub</a>
+                <a href="https://github.com/hawc/siebdruck"
+                   target="_blank"
+                   rel="noopener">
+                    GitHub
+                </a>
             </li>
             <li class="footerNav__item">
                 <a href="/impressum">Impressum</a>
@@ -17,4 +19,17 @@
 </template>
 
 <style lang="scss">
+    .footerNav {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+        font-size: 0.85rem;
+        margin: 30px 0;
+    }
+    .footerNav__item {
+        display: inline-block;
+        margin: 0 20px; 
+        line-height: 0;
+    }
 </style>
