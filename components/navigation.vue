@@ -52,11 +52,13 @@
         font-size: 0.85rem;
         margin: 25px 0 50px;
     }
+    .headerNav__item {
+        margin-bottom: 10px;
+    }
     .headerNav__link,
     .navigation__list,
     .navigation__item {
         display: inline-block;
-        line-height: 1.5rem;
     }
     .navigation__link {
         margin: 0 5px;

@@ -5,6 +5,8 @@
 </template>
 
 <style lang="scss">
+$primaryColor: blue;
+
 html {
   font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
     Roboto, 'Helvetica Neue', Arial, sans-serif;
@@ -31,7 +33,7 @@ h1 {
 }
 
 main {
-  padding-bottom: 60px;
+  padding-bottom: 50px;
 }
 
 a,
@@ -58,6 +60,10 @@ ul {
   margin: 0;
 }
 
+p:not(:last-child) {
+  margin-bottom: 20px;
+}
+
 dl {
   margin: 20px 0;
   dt {
@@ -66,12 +72,30 @@ dl {
   }
 }
 
+hr {
+  border: none;
+  height: 1px;
+  margin: 0 auto;
+  max-width: 600px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
 .wrap {
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 auto;
     padding: 0 20px;
 }
 
+.cta {
+  display: inline-block;
+  color: $primaryColor;
+  margin: 20px 0;
+  &:active,
+  &:hover,
+  &:visited {
+    color: $primaryColor;
+  }
+}
 /*
 .button--green {
   display: inline-block;

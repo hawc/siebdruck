@@ -44,8 +44,8 @@
 </template>
 
 <script>
-import siteHeader from '~/components/header'
-import footerNav from '~/components/footer'
+import siteHeader from '~/components/header';
+import footerNav from '~/components/footer';
 
 export default {
     components: {

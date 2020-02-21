@@ -3,16 +3,18 @@
     <siteHeader></siteHeader>
     <main>
       <div class="wrap">
-        <div class="content"></div>
+        <div class="content">
+            <p></p>
+        </div>
       </div>
     </main>
-    <footerNav noContactFooter></footerNav>
+    <footerNav></footerNav>
   </div>
 </template>
 
 <script>
-import siteHeader from '~/components/header'
-import footerNav from '~/components/footer'
+import siteHeader from '~/components/header';
+import footerNav from '~/components/footer';
 
 export default {
     components: {
