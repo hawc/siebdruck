@@ -60,17 +60,32 @@ export default {
         components: {
           default: resolve(__dirname, 'pages/screens'),
         }
-      },{
+      }, {
         path: '/papier',
         components: {
           default: resolve(__dirname, 'pages/paper'),
         }
-      },{
+      }, {
+        path: '/rakel',
+        components: {
+          default: resolve(__dirname, 'pages/squeegees'),
+        }
+      }, {
+        path: '/beschichten',
+        components: {
+          default: resolve(__dirname, 'pages/coating'),
+        }
+      }, {
+        path: '/belichten-auswaschen',
+        components: {
+          default: resolve(__dirname, 'pages/exposure'),
+        }
+      }, {
         path: '/ueber',
         components: {
           default: resolve(__dirname, 'pages/about'),
         }
-      },{
+      }, {
         path: '/kontakt',
         components: {
           default: resolve(__dirname, 'pages/contact'),

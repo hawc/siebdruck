@@ -9,10 +9,6 @@
                 zu können. Der klassische Druck auf Papier scheint dabei ein Selbstläufer zu sein, jedoch
                 gibt es hier gerade im DIY-Bereich und für Anfänger ein paar Details zu beachten.
             </p>
-            <!-- <p>
-                Vor dem Druck steht die Wahl des richtigen <a href="/siebe">Siebs</a> (im Normalfall eines mit
-                höherer Maschendichte) und eines <a href="/rakel">Rakels</a>.
-            </p> -->
             <p>
                 Durch den hohen Feuchtigkeitsanteil von wasserbasierter Druckfarbe weicht zu dünnes Papier
                 nach dem Druck schnell auf und verzieht sich beim Trocknen oder bleibt sogar am Arbeitstisch

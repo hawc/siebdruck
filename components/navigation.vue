@@ -13,6 +13,9 @@
                             <a href="/papier" class="navigation__link">Papier</a>
                         </li>
                         <li class="navigation__item">
+                            <a href="/chemicals" class="navigation__link">Chemikalien</a>
+                        </li>
+                        <li class="navigation__item">
                             <a href="/rakel" class="navigation__link">Rakel</a>
                         </li>
                         <li class="navigation__item">
