@@ -1,57 +1,59 @@
-
 export default {
-  mode: 'universal',
-  /*
-  ** Headers of the page
-  */
+  // Target: https://go.nuxtjs.dev/config-target
+  target: 'static',
+
+  // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: process.env.npm_package_name || '',
+    title: 'siebdruck',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
+      { hid: 'description', name: 'description', content: '' },
+      { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
       { rel: 'stylesheet', type: 'text/css', href: 'https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap' },
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
-  /*
-  ** Customize the progress-bar color
-  */
-  loading: { color: '#fff' },
-  /*
-  ** Global CSS
-  */
+
+  // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
   ],
-  /*
-  ** Plugins to load before mounting the App
-  */
+
+  // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
   ],
-  /*
-  ** Nuxt.js dev-modules
-  */
+
+  // Auto import components: https://go.nuxtjs.dev/config-components
+  components: true,
+
+  // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
-    // Doc: https://github.com/nuxt-community/eslint-module
-    '@nuxtjs/eslint-module',
+    // https://go.nuxtjs.dev/typescript
+    '@nuxt/typescript-build'
   ],
-  /*
-  ** Nuxt.js modules
-  */
+
+  // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
+    // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
+    // https://go.nuxtjs.dev/content
+    '@nuxt/content'
   ],
-  /*
-  ** Build configuration
-  */
-  build: {
-    /*
-    ** You can extend webpack config here
-    */
-    extend (config, ctx) {
+
+  // PWA module configuration: https://go.nuxtjs.dev/pwa
+  pwa: {
+    manifest: {
+      lang: 'en'
     }
+  },
+
+  // Content module configuration: https://go.nuxtjs.dev/config-content
+  content: {},
+
+  // Build Configuration: https://go.nuxtjs.dev/config-build
+  build: {
   },
   router: {
     extendRoutes(routes, resolve) {
@@ -66,6 +68,11 @@ export default {
           default: resolve(__dirname, 'pages/paper'),
         }
       }, {
+        path: '/textilien',
+        components: {
+          default: resolve(__dirname, 'pages/textiles'),
+        }
+      }, {
         path: '/rakel',
         components: {
           default: resolve(__dirname, 'pages/squeegees'),
@@ -76,6 +83,11 @@ export default {
           default: resolve(__dirname, 'pages/coating'),
         }
       }, {
+        path: '/farben',
+        components: {
+          default: resolve(__dirname, 'pages/inks'),
+        }
+      }, {
         path: '/belichten-auswaschen',
         components: {
           default: resolve(__dirname, 'pages/exposure'),
@@ -84,6 +96,11 @@ export default {
         path: '/geraete',
         components: {
           default: resolve(__dirname, 'pages/devices'),
+        }
+      }, {
+        path: '/drucken',
+        components: {
+          default: resolve(__dirname, 'pages/printing'),
         }
       }, {
         path: '/ueber',
