@@ -81,6 +81,11 @@ export default {
           default: resolve(__dirname, 'pages/exposure'),
         }
       }, {
+        path: '/geraete',
+        components: {
+          default: resolve(__dirname, 'pages/devices'),
+        }
+      }, {
         path: '/ueber',
         components: {
           default: resolve(__dirname, 'pages/about'),
