@@ -22,12 +22,14 @@
             <p>
                 Es sollte außerdem bevorzugt offenporiges Papier genutzt werden. Dabei kann die Farbe - im Gegensatz
                 zu gestrichenem Papier - schnell einziehen. Dadurch trocknet sie schnell und kann später nicht
-                abplatzen.
+                abplatzen. Bei besoners groben Papieren kann jedoch der Farbauftrag lückenhaft werden, besonders wenn
+                man nicht genug Anpressdruck mit dem Rakel erzeugen kann - zum Beispiel bei größeren Motiven.
             </p>
             <p>
-                Bei mehrfarbigem Druck sollte darauf geachtet werden, dass die Farbe des vorherigen Druck-Durchgangs
+                Bei mehrfarbigem Druck sollte darauf geachtet werden, dass die Farbe des vorherigen Druckdurchgangs
                 komplett getrocknet ist, bevor die nächste Farbe folgt. Bei mittlerem Farbauftrag sollten dafür bereits
-                15 - 20 Minuten reichen. So sammelt sich im Papier keine Feuchtigkeit, die dieses verziehen lassen könnte.
+                20 - 30 Minuten reichen. So sammelt sich im Papier keine Feuchtigkeit, die dieses verziehen lassen könnte.
+                Nach dem ersten Antrocknen kann auch mit einem Fön nachgeholfen werden.
             </p>
         </div>
       </div>
