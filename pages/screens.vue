@@ -4,7 +4,8 @@
     <main>
       <div class="wrap">
         <div class="content">
-            <p>Die verschiedenen Maschenweiten ermöglichen unterschiedlichen Anwendungsarten beim Siebdruck.
+            <p>
+                Die verschiedenen Maschenweiten ermöglichen unterschiedlichen Anwendungsarten beim Siebdruck.
                 Generell gilt: Feinere Siebgewebe sind für feieren Druck, benötigen dabei jedoch dünnere
                 Farben (z.B. wassierbasierte, u.U. mithilfe von Verzögerer). Außerdem spielt die Wahl des Rakels
                 hier eine wichtige Rolle. Festere Rakelgummis für sehr feine Drucke und Rasterdrucke mit

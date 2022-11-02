@@ -3,7 +3,7 @@
         <nav class="headerNav">
             <ul class="headerNav__list">
                 <li class="headerNav__item">
-                    <a href="/materialien" class="headerNav__link">Materialien</a>
+                    <i>Material</i>
                     <i class="navSpacer" aria-hidden>&mdash;</i>
                     <ul class="navigation__list">
                         <li class="navigation__item">
@@ -13,21 +13,24 @@
                             <a href="/papier" class="navigation__link">Papier</a>
                         </li>
                         <li class="navigation__item">
+                            <a href="/textilien" class="navigation__link">Textilien</a>
+                        </li>
+                        <li class="navigation__item">
                             <a href="/chemicals" class="navigation__link">Chemikalien</a>
                         </li>
                         <li class="navigation__item">
                             <a href="/rakel" class="navigation__link">Rakel</a>
                         </li>
                         <li class="navigation__item">
-                            <a href="/geraete" class="navigation__link">Geräte</a>
+                            <a href="/farben" class="navigation__link">Farben</a>
                         </li>
                         <li class="navigation__item">
-                            <a href="/textilien" class="navigation__link">Textilien</a>
+                            <a href="/geraete" class="navigation__link">Geräte</a>
                         </li>
                     </ul>
                 </li>
                 <li class="headerNav__item">
-                    <a href="/techniken" class="headerNav__link">Techniken</a>
+                    <i>Technik</i>
                     <i class="navSpacer" aria-hidden>&mdash;</i>
                     <ul class="navigation__list">
                         <li class="navigation__item">
@@ -68,5 +71,6 @@
     }
     .navSpacer {
         padding-left: 5px;
+        font-style: normal;
     }
 </style>
