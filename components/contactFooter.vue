@@ -7,7 +7,7 @@
             Schreib mir gern eine Nachricht, ich
             kümmere mich drum.
             <div>
-                <a href="/contact" class="cta">Hier gehts zum Kontaktformular</a>
+                <a href="/kontakt" class="cta">Hier gehts zum Kontaktformular</a>
             </div>
         </div>
         <hr/>
