@@ -27,7 +27,7 @@
         </div>
       </div>
     </main>
-    <footerNav></footerNav>
+    <footerNav noContactFooter></footerNav>
   </div>
 </template>
 
