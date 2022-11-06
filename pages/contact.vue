@@ -59,5 +59,12 @@ export default {
         width: 25%;
       }
     }
-}
+    input {
+      flex-grow: 1;
+      appearance: none;
+      border: 1px solid black !important;
+      padding: 5px 10px;
+      font-size: 100%;
+    }
+  }
 </style>
