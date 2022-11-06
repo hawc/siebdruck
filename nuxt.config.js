@@ -83,6 +83,11 @@ export default {
           default: resolve(__dirname, 'pages/coating'),
         }
       }, {
+        path: '/entschichten',
+        components: {
+          default: resolve(__dirname, 'pages/decoating'),
+        }
+      }, {
         path: '/farben',
         components: {
           default: resolve(__dirname, 'pages/inks'),

@@ -4,9 +4,9 @@
     <main>
       <div class="wrap">
         <div class="content">
-            <p>
-                Die Wahl des richtigen Rakels ist eine große Hilfe für ein sauberes Druckergebnis.
-            </p>
+          <p>
+            Die Wahl des richtigen Rakels ist eine große Hilfe für ein sauberes Druckergebnis.
+          </p>
         </div>
       </div>
     </main>
@@ -19,12 +19,9 @@ import siteHeader from '~/components/header';
 import footerNav from '~/components/footer';
 
 export default {
-    components: {
-        siteHeader,
-        footerNav
-    }
+  components: {
+    siteHeader,
+    footerNav
+  }
 }
 </script>
-
-<style lang="scss">
-</style>

@@ -36,10 +36,10 @@ import siteHeader from '~/components/header';
 import footerNav from '~/components/footer';
 
 export default {
-    components: {
-        siteHeader,
-        footerNav
-    }
+  components: {
+    siteHeader,
+    footerNav
+  }
 }
 </script>
 

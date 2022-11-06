@@ -5,8 +5,8 @@
       <div class="wrap">
         <div class="content">
             <p>
-              Moin! Ich bin Hendrik und ich drucke selbst unfassbar gern. Gestartet habe ich mit dem Druck
-              von T-Shirts im WG-Zimmer. Schnell ging's dann in ein eigenes Atelier, dort konnte ich mich 
+              Moin! Ich bin Hendrik und ich drucke selbst unfassbar gern. Gestartet damit habe ich in meinem WG-Zimmer 
+              mit dem Druck von T-Shirts. Schnell ging's dann in ein eigenes Atelier, dort konnte ich mich 
               umfassend mit den verschiedenen Möglichkeiten und Spielarten des Siebdrucks auseinandersetzen.
               Mittlerweile drucke ich hauptsächlich auf Papier und verkaufe Kleinserien von Kunstdrucken, darum
               soll es aber hier nicht gehen.
@@ -33,12 +33,9 @@ import siteHeader from '~/components/header';
 import footerNav from '~/components/footer';
 
 export default {
-    components: {
-        siteHeader,
-        footerNav
-    }
+  components: {
+    siteHeader,
+    footerNav
+  }
 }
 </script>
-
-<style lang="scss">
-</style>

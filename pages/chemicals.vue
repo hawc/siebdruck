@@ -43,7 +43,8 @@
               Ohne Emulsion kein Siebdruck. Diese meist zähflüssige Masse gibt es in vielen Ausführungen und erfült immer
               den selben Zweck: Eine möglichst gleichmäßige Beschichtung des Siebs sicherzustellen. Bei der Wahl der
               Emulsion ist darauf zu achten, eine passend zur Druckfarbe (wasserbasiert oder Plastisol) und zum Druckmedium
-              (Textil oder Papier, ...) zu wählen. Zweikomponentige Diazo-Emulsionen liefern oft ein feineres Druckbild und 
+              (Textil oder Papier, ...) zu wählen. Einkomponentige Beschichtungsmassen eignen sich sehr gut für den klassischen
+              Textildruck und sich einfach zu verarbeiten. Zweikomponentige Diazo-Emulsionen liefern dafür ein feineres Druckbild und 
               sind umfangreich einsetzbar, lassen sich aber bei falscher Anwendung schwieriger Entschichten und benötigen eine
               längere Belichtung. Aufgrund der giftigen Diazo-Masse sollten diese Beschichtungsmassen bis zur Belichtung nur mit
               Schutzkleidung verarbeitet werden, sie hinterlässt außerdem unschöne Verfärbungen (auch auf Kleidung und Keramik).
@@ -72,12 +73,9 @@ import siteHeader from '~/components/header';
 import footerNav from '~/components/footer';
 
 export default {
-    components: {
-        siteHeader,
-        footerNav
-    }
+  components: {
+    siteHeader,
+    footerNav
+  }
 }
 </script>
-
-<style lang="scss">
-</style>
