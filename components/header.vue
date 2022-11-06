@@ -14,32 +14,8 @@
 import navigation from '~/components/navigation'
 
 export default {
-    components: {
-        navigation
-    }
+  components: {
+    navigation,
+  }
 }
 </script>
-
-<style lang="scss">
-.siteHeader {
-    padding-top: 50px;
-    text-align: center;
-}
-.site__headline {
-    font-family: 'Abril Fatface', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-weight: normal;
-    font-size: 3rem;
-    a,
-    a:active,
-    a:hover,
-    a:visited {
-        border: none;
-    }
-}
-.site__subline {
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 0.2rem;
-    font-size: .9rem;
-}
-</style>
