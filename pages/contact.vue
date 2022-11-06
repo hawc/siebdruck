@@ -56,14 +56,25 @@ export default {
       flex-direction: row;
       display: flex;
       span {
+        align-self: center;
         width: 25%;
       }
     }
-    input {
+    input,
+    textarea {
       flex-grow: 1;
       appearance: none;
       border: 1px solid black !important;
       padding: 5px 10px;
+      font-size: 100%;
+    }
+    button {
+      background: black;
+      color: white;
+      appearance: none;
+      border: none;
+      width: 100%;
+      padding: 10px;
       font-size: 100%;
     }
   }
