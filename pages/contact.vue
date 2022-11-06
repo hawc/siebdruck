@@ -3,21 +3,27 @@
     <siteHeader></siteHeader>
     <main>
       <div class="wrap">
-        <div class="content">
-            <form name="contact" netlify>
-              <p>
-                <label>Name <input type="text" name="name" /></label>
-              </p>
-              <p>
-                <label>E-Mail <input type="email" name="email" /></label>
-              </p>
-              <p>
-                <label>Nachricht <textarea></textarea></label>
-              </p>
-              <p>
-                <button type="submit">Absenden</button>
-              </p>
-            </form>
+        <div class="contentWrapper">
+          <form class="contact" name="contact" netlify>
+            <p>
+              <label>
+                <span>Name</span>
+                <input type="text" name="name" /></label>
+            </p>
+            <p>
+              <label>
+                <span>E-Mail</span>
+                <input type="email" name="email" /></label>
+            </p>
+            <p>
+              <label>
+                <span>Nachricht</span>
+                <textarea name="message"></textarea></label>
+            </p>
+            <p>
+              <button type="submit">Absenden</button>
+            </p>
+          </form>
         </div>
       </div>
     </main>
@@ -37,5 +43,21 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style scoped lang="scss">
+  .contentWrapper {
+    display: flex;
+    justify-content: center;
+  }
+  .contact {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 500px;
+    label {
+      flex-direction: row;
+      display: flex;
+      span {
+        width: 25%;
+      }
+    }
+}
 </style>
